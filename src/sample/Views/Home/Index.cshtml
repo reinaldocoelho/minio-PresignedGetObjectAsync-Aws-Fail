@@ -8,6 +8,7 @@
 
 <div class="row">
     <div class="col-md-4">
-        <a href="~/Home/DownloadAsync">Click here to get file or has problem.</a>
+        <button onclick="window.open('@Url.Action("DownloadImageAsync", "Home")');" target="_blank">Get Image test</button>
+        <button onclick="window.open('@Url.Action("DownloadPDFAsync", "Home")');" target="_blank">Get PDF test</button>
     </div>
 </div>
